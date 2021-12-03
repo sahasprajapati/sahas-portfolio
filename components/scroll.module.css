@@ -1,0 +1,23 @@
+.textDecor {
+  @apply font-bold  text-gray-600 hover:text-indigo-700 dark:text-red-800 dark:hover:text-white;
+}
+
+.marqueeSlow {
+  animation: slide 50s linear infinite;
+  @apply space-x-4 p-2;
+}
+
+.marqueeFast {
+  animation: slide 25s linear infinite;
+  @apply space-x-4 p-2;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
