@@ -31,21 +31,17 @@ export default function AboutMe() {
 
           <div className=" text-gray-600 dark:text-gray-200 space-y-8 col-span-12 md:col-span-7 p-8">
             <h2 className="text-4xl font-bold text-indigo-700 dark:text-white mb-10">
-              {" I'm a developer. Currently working on a   "}
-              <a
-                href={userData.projects[userData.projects.length - 1].githubUrl}
-                className="font-mono"
-              >
-                {userData.projects[userData.projects.length - 1].title}
-              </a>
+              {
+                " I'm a developer. Currently working as a fellow at Deerhold Pvt. Ltd."
+              }
             </h2>
             <span className="text-indigo-700 dark:text-indigo-300">
               <RoughNotationGroup show={true}>
                 <RoughNotation type="box" iterations={4}>
                   <div className="text-lg text-gray-600 dark:text-gray-200 space-y-8 m-8 ">
                     <p className="text-justify">
-                      I am currently studying my last semester of Computer
-                      Engineering at{" "}
+                      I have recently completed my Bachleors in Computer
+                      Engineering from
                       <span className="  text-indigo-200 dark:text-indigo-700">
                         <RoughNotation type="highlight" iterations={4}>
                           <span className="text-indigo-700 dark:text-gray-200 ">
@@ -54,8 +50,7 @@ export default function AboutMe() {
                         </RoughNotation>{" "}
                       </span>
                       Bhaktapur. I have built and deployed various web app
-                      projects. As a computer engineering student, I have
-                      completed various projects in a timely manner.
+                      projects.
                     </p>
                     <p className="text-justify">
                       I have knowledge about various languages such as C,C++,
