@@ -40,17 +40,17 @@ export default function AboutMe() {
                 <RoughNotation type="box" iterations={4}>
                   <div className="text-lg text-gray-600 dark:text-gray-200 space-y-8 m-8 ">
                     <p className="text-justify">
-                      I have recently completed my Bachleors in Computer
+                      I have completed my Bachleors in Computer
                       Engineering from
                       <span className="  text-indigo-200 dark:text-indigo-700">
                         <RoughNotation type="highlight" iterations={4}>
                           <span className="text-indigo-700 dark:text-gray-200 ">
                             Khwopa College of Engineering,
                           </span>
-                        </RoughNotation>{" "}
+                        </RoughNotation>
                       </span>
                       Bhaktapur. I have built and deployed various web app
-                      projects.
+                      projects. I am currently working as a Full Stack Developer in PortPro Nepal.
                     </p>
                     <p className="text-justify">
                       I have knowledge about various languages such as C,C++,
